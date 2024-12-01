@@ -28,14 +28,14 @@ This project demonstrates a messaging system over DNS queries and responses, usi
 **Start the Server**
 
 Run the server script to start listening for incoming DNS messages:
-   
+
+    make run-server
 
 **Send a Message**
 
 Run the client script to send a message to the server:   
 
-    make run-server
-
+    make run-client
 
 **Example Message**
 
