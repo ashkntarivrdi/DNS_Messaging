@@ -80,8 +80,11 @@ Modify the following variables in the scripts as needed:
 The `Makefile` provides the following targets:
 
 `install`: Installs required dependencies (`dnslib`).
+
 `run-server`: Runs the server script (`server.py`).
+
 `run-client`: Runs the client script (`client.py`).
+
 `clean`: Removes Python cache files.
 
 Example:
