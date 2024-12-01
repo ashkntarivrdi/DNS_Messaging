@@ -27,25 +27,22 @@ This project demonstrates a messaging system over DNS queries and responses, usi
 ## Usage
 **Start the Server**
 Run the server script to start listening for incoming DNS messages:
-```bash
-make run-server
+   
 
 **Send a Message**
 Run the client script to send a message to the server:
+   `bash
+   make run-server
 
-```bash
-make run-client
 
 **Example Message**
 The client sends a message like:
 
-```bash
-This is a test message split into DNS packets.
+
 
 The server reassembles the message from multiple packets and prints:
 
-```bash
-Full message received: This is a test message split into DNS packets.
+
 
 ## File Descriptions
 `server.py`: Contains the server-side code for handling DNS messages.
